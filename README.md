@@ -1,2 +1,2 @@
 # Clinic-Caller-Bot
-I built a caller that pretends to be a patient so I can hear where a clinic voice agent falls over.
+This project places real phone calls and plays a patient. I used it to run about ten full conversations against a clinic voice agent, then sat through the recordings and wrote up what broke.
