@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "schedule a routine checkup",
+  "knows": "weekday mornings are easier than afternoons",
+  "wait_for_clinic": true,
+  "extras": "If they ask for a day, prefer Tuesday or Wednesday around 10am."
+}
