@@ -20,11 +20,11 @@ The first thing anyone judging this will do is listen. The usual pipeline (STT, 
 
 You need a Twilio number, an OpenAI key, ngrok, and ffmpeg. Copy .env.example to .env and fill in the keys. PUBLIC_HOST is the ngrok hostname, without https://:
 
-TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_FROM_NUMBER=+15551234567
-OPENAI_API_KEY=sk-your-openai-key
-PUBLIC_HOST=majorette-parsnip-discard.ngrok-free.dev
+- TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- TWILIO_AUTH_TOKEN=your_twilio_auth_token
+- TWILIO_FROM_NUMBER=+15551234567
+- OPENAI_API_KEY=sk-your-openai-key
+- PUBLIC_HOST=xxx-xxx-discard.ngrok-free.dev
 
 Open three terminals. In each one, go to the project folder.
 
