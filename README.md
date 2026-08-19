@@ -18,29 +18,33 @@ The first thing anyone judging this will do is listen. The usual pipeline (STT, 
 
 ## How to run this project
 
-1. We need a Twilio number, an OpenAI key, ngrok, and ffmpeg.
-
-2. Under the project root folder, copy ·.env.example· to ·.env· and fill in the keys. It looks like this:
+You need a Twilio number, an OpenAI key, ngrok, and ffmpeg. Copy .env.example to .env and fill in the keys. PUBLIC_HOST is the ngrok hostname, without https://:
 
 TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_FROM_NUMBER=+15551234567
 OPENAI_API_KEY=sk-your-openai-key
-PUBLIC_HOST=something.ngrok-free.app
+PUBLIC_HOST=majorette-parsnip-discard.ngrok-free.dev
 
-PUBLIC_HOST is the ngrok hostname from step 3, without https://. Start ngrok once if you need to see it, paste it here, then come back to step 2.
+Open three terminals. In each one, go to the project folder.
 
-3. Install and start the server:
+1. Start the server.
 
-python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --host 127.0.0.1 --port 8000
 
-4. In another terminal, start the tunnel, then place a call:
+2. Start ngrok so Twilio can reach your laptop. Leave this window open.
 
-ngrok http 8000
+ngrok http 8000 --url https://majorette-parsnip-discard.ngrok-free.dev
+
+3. Place a call. This is the step that actually dials.
+
+source .venv/bin/activate
 python -m bot run scenarios/schedule_checkup.json
+
+To try a different patient, swap the json file, for example scenarios/refill.json.
+
+Keep the first two terminals running. If you close them, the call dies.
 
 ## What I found
 
