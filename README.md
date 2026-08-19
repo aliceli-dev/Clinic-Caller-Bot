@@ -40,7 +40,7 @@ ngrok http 8000 --url https://majorette-parsnip-discard.ngrok-free.dev
 3. Place a call. This is the step that actually dials.
 
 source .venv/bin/activate
-python -m bot run scenarios/schedule_checkup.json
+python -m bot run scenarios/<in scenarios folder>.json
 
 To try a different patient, swap the json file, for example scenarios/refill.json.
 
