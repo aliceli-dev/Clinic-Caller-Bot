@@ -32,7 +32,7 @@ def main():
         print("fill TWILIO_* and PUBLIC_HOST in .env first")
         sys.exit(1)
 
-    # Twilio will fetch this URL when the clinic picks up.
+    # Webhook URL: Twilio will fetch this URL when the clinic picks up.
     twiml_url = f"https://{host}/twiml?scenario={name}"
     recording_url = f"https://{host}/recording?scenario={name}"
 
