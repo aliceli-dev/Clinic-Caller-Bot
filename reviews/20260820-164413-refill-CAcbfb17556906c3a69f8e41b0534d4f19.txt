@@ -1,0 +1,4 @@
+- what happened: The bot attempted to transfer the caller to the patient support team, but the call was routed to a test line instead.
+- why it is a problem: The transfer did not connect the caller to the intended support team, leaving the issue unresolved.
+- a short quote from the transcript: "Transferring you now... Hello. You've reached the Pretty Good AI test line."
+- an approximate timestamp: [1:09]

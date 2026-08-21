@@ -1,0 +1,4 @@
+- The bot confirmed an existing appointment for Friday, August 21st, which is not possible since the current year is 2023 and August 21st was not a Friday. 
+- This is a problem because it provides incorrect information to the patient, potentially causing confusion.
+- "You already have an office visit scheduled for Friday, August 21st at 9 a.m."
+- [1:14]

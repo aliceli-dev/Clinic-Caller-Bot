@@ -1,0 +1,4 @@
+- what happened: The bot attempted to transfer the call to the patient support team but instead connected Alice to a test line, which then ended the call.
+- why it is a problem: The transfer did not connect Alice to the appropriate support team, preventing her from canceling her appointment.
+- a short quote from the transcript: "Transferring you now. Thank you." followed by "Hello. You've reached the Pretty Good AI test line."
+- an approximate timestamp: [0:49] to [0:52]

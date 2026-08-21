@@ -1,0 +1,4 @@
+- The bot claimed to transfer the caller to the patient support team but instead connected them to a test line, which is not a real transfer.
+- This is a problem because it misleads the caller into thinking they are being connected to someone who can help, but instead, they reach a non-functional line.
+- "Transfer you now." followed by "Hello. You've reached the Pretty Good AI test line. Goodbye." 
+- Approximate timestamp: [1:37] to [1:44]

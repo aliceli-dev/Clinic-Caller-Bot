@@ -1,0 +1,3 @@
+- The bot confirmed an appointment for Friday, August 21st, but did not verify the current year. This could lead to confusion if the date is not in the current year.
+- It is a problem because confirming an appointment without verifying the year could result in the patient showing up on the wrong date.
+- "The soonest available appointments are actually on Friday, August 21st." [1:12]
