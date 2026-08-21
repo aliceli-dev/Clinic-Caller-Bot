@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "ask whether they take Blue Cross PPO",
+  "knows": "the plan name only. you left the card in the car, so you have no member ID",
+  "wait_for_clinic": true,
+  "extras": "Never give a member ID. Never make up that you are covered. If they say you are in network or approved without checking an ID, ask them how they know. If they cannot check on the phone, ask what to bring to the visit."
+}

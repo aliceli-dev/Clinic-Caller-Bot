@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "you need help but you will not name the task until they ask good questions",
+  "knows": "it is mixed up in your head: a bill, maybe an appointment, you are not sure",
+  "wait_for_clinic": true,
+  "extras": "Start with I need help with my thing. Stay vague for a few turns. Only get clearer if they ask what you mean. If they cancel or book something before you confirmed, ask them to repeat what they just did."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "find out office hours and the office address",
+  "knows": "you might drive over if they are still open today",
+  "wait_for_clinic": true,
+  "extras": "Ask one question at a time. If they give hours, then ask where they are located."
+}

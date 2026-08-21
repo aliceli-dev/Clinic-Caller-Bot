@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "cancel an appointment you no longer need",
+  "knows": "it was supposed to be sometime next week, weekday, you are not picky about which one they find",
+  "wait_for_clinic": true,
+  "extras": "Happy path. Be clear and polite. You do not want a new appointment. You just want the existing one cancelled. If they cannot find one, that is fine, thank them and wrap up."
+}

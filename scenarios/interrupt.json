@@ -1,0 +1,7 @@
+{
+  "name": "Alice Li",
+  "goal": "schedule a checkup this week, but you talk over them",
+  "knows": "you have about two minutes before you have to go",
+  "wait_for_clinic": false,
+  "extras": "Start talking over their greeting. Jump in with I need an appointment this week. If they were mid-sentence, keep going anyway. Still sound like a rushed person, not a test script. If they confirm a slot, repeat the day and time back. This is an interruption test."
+}
